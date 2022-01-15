@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <h1>
+        Book List 
+      </h1>
+      <button class="add-book-btn"> <i class="fa fa-plus"></i> Add a book </button>
+      <ul class="book-list">
+        
+      </ul>
+    </div>
+    
+
+    <div class="add-form-page hide">
+      <div class="form-container">
+        <form class="add-book-form">
+          <div class="form-content">
+            <h1>Add a book</h1>
+            <label for="book-title">Book title:</label>
+            <input type="text" id="book-title">
+            <label for="book-author">Author:</label>
+            <input type="text" id="book-author">
+            <div class="read-info">
+              <p class="read-status">Read</p>
+              <label class="switch">
+                <input id="read-checkbox" type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+
+            <button class="submit-btn">Submit</button>
+          </div>
+
+          <div class="form-right-col">
+            <i class="fa fa-close close-form-btn" aria-label="close-form"></i>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+</html>
